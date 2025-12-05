@@ -97,11 +97,9 @@ lib.sobel('input.jpg', 'out_sobel_acc.jpg')
 - `OSError` al cargar la librería OpenACC/CUDA: comprueba `LD_LIBRARY_PATH` y que los runtimes (CUDA, NVIDIA libs) estén disponibles.
 - Fallos en tiempo de ejecución o corrupciones de memoria: puede indicar incompatibilidad en la definición de `struct Image` entre C y el wrapper; revísala cuidadosamente.
 
-**Siguientes pasos sugeridos**
-- Añadir un `examples/` con scripts de prueba que usen cada backend.
-- Añadir un `Makefile` o `README_build.md` con instrucciones de compilación exactas según las fuentes nativas.
-
-**Contacto / Licencia**
-- Añade aquí tu información de licencia o contacto si deseas compartir el proyecto públicamente.
+**Descargar en pip**
+```bash
+pip install mypyimagefilters
+```
 
 Fin del README

@@ -14,7 +14,7 @@ class CPUFilterLib:
         """
         Inicializa la librería compartida de Filtros CPU.
         """
-        lib_path = os.path.abspath('./bin/libfiltersseq.so')
+        lib_path = os.path.join(os.path.dirname(__file__), 'bin', 'libfiltersseq.so')
         
         if not os.path.exists(lib_path):
             raise FileNotFoundError(f"Shared library was not found in: {lib_path}")

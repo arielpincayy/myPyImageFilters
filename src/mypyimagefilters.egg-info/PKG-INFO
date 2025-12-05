@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: mypyimagefilters
-Version: 0.1.0
+Version: 0.1.2
 Summary: Python wrappers for native image filter libraries (CPU, CUDA, OpenACC).
 Author: Ariel
 License: MIT
